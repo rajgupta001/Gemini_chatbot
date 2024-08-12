@@ -13,7 +13,7 @@ let userMessage = null;
 let isResponseGenerating = false;
 
 // API CONFIGURATION
-const API_KEY = "AIzaSyCOAEaLn_-MWxzoyu0X7zyIH_cXAEB3Jyw";
+const API_KEY = "USE_YOUR_GEMINI_API_KEY"
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 const loadLocalstorageData = () => {
